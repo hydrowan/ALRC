@@ -7,6 +7,16 @@ https://github.com/Jeffrey-Ede/ALRC
 
 Code was originally written to stabilise training with massive models and therefore small batch sizes for my thesis project: Paired Diffusion: Generation of 2D and 3D aligned, synthetic PET-CT-Segmentation scans using Linked Denoising Diffusion Probabilistic Models
 
+## Testing
+Simple tests to show functionality of the implementation.
+
+### 1. Normal distribution of values with outliers appended.
+```python
+losses = np.random.normal(25, 10, 1000)
+outliers = np.array([100, 150, 200])
+```
+
+
 ## Usage
 
 Usage is simple
