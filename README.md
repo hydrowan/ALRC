@@ -37,7 +37,7 @@ Usage is simple
 1. Import into your script and make an ALRC object
 
 ```python
-from alrcpytorch import ALRC
+from alrc_pytorch import ALRC
 alrc = ALRC()
 ```
 
