@@ -15,7 +15,8 @@ Simple tests to show functionality of the implementation.
 losses = np.random.normal(25, 10, 1000)
 outliers = np.array([100, 150, 200])
 ```
-
+Clipped losses:<br>
+![Clipped losses](clipping_test.png)
 
 ## Usage
 
